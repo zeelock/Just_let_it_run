@@ -36,9 +36,9 @@ function draw() {
   
     for(var y = 0 ; y < rows ; y++ ){
       
-  var xoff = 0;
+        var xoff = 0;
   
-    for( var x = 0; x < cols; x++){
+          for( var x = 0; x < cols; x++){
       
           var index = (x + y * cols);
           
@@ -69,7 +69,7 @@ function draw() {
 
    yoff += inc;
      zoff += 0.0004;
-}
+  }
     for( var i = 0 ; i < par.length ; i++){
       par[i].follow(map);
        par[i].end();
@@ -77,7 +77,7 @@ function draw() {
       par[i].update();
       par[i].accforce();
      
-}
+     }
   }
 }
 function Bug (){
@@ -111,7 +111,7 @@ function Bug (){
   this.show = function (){
     
     
-    stroke(255,10);
+    stroke(255,100);
     strokeWeight(1);
     point(this.pos.x,this.pos.y);
     //this.updatepreV();
