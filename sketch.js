@@ -51,7 +51,7 @@ function draw() {
              
           var v = p5.Vector.fromAngle(angle);
           
-          v.setMag(0.20);
+          v.setMag(0.05);
           
           xoff += inc;
            // stroke(0);
@@ -69,7 +69,7 @@ function draw() {
      zoff += 0.0004;
 }
     for( var i = 0 ; i < par.length ; i++){
-      par[i].follow(map);
+5      par[i].follow(map);
        par[i].end();
       par[i].show();
       par[i].update();
@@ -79,7 +79,6 @@ function draw() {
   }
 }
 function Bug (){
-
   this.pos = createVector(random(width),random(height));
   this.v   = createVector(0,0);
   this.acc = createVector(0,0);
@@ -90,8 +89,7 @@ function Bug (){
   this.speed = 4 ;
   
   this.update = function(){
-     
-    this.v.add(this.acc);
+         this.v.add(this.acc);
     this.v.limit(this.speed);
     this.pos.add(this.v);
     this.acc.mult(0);
@@ -109,7 +107,7 @@ function Bug (){
   this.show = function (){
     
     
-    stroke(255,10);
+    stroke(255,5);
     strokeWeight(1);
     point(this.pos.x,this.pos.y);
     //this.updatepreV();
