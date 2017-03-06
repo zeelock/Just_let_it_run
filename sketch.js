@@ -1,7 +1,7 @@
 
 
 var inc = 0.01;
-var scl = 5;
+var scl = 2;
 var cols,rows;
 var zoff = 0.01;
 
@@ -16,7 +16,7 @@ function setup() {
   
   map = new Array(cols*rows);
   
-  for( i = 0 ; i < 5000 ; i ++  ){
+  for( i = 0 ; i < 2500 ; i ++  ){
     
     par[i] = new Bug ();
     
