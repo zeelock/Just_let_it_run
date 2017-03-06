@@ -111,7 +111,7 @@ function Bug (){
   this.show = function (){
     
     
-    stroke(255,100);
+    stroke(255,1);
     strokeWeight(1);
     point(this.pos.x,this.pos.y);
     //this.updatepreV();
