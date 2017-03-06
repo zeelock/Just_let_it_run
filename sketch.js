@@ -1,5 +1,5 @@
 var inc = 0.01;
-var scl = 20;
+var scl = 50;
 var cols,rows;
 var zoff = 0.01;
 
