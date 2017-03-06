@@ -114,10 +114,7 @@ function Bug (){
     point(this.pos.x,this.pos.y);
     //this.updatepreV();
     
-    if(this.pos.dist( this.pos) < 15 ){
-      this.pos.x = random(width);
-      this.pos.y = random(height);
-    }
+  
     
   };
   this.end = function(){
