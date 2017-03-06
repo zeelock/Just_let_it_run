@@ -3,7 +3,7 @@
 var inc = 0.01;
 var scl = 25;
 var cols,rows;
-var zoff = 0.001;
+var zoff = 0.01;
 
 var par = [];
 var map = [];
@@ -29,7 +29,7 @@ function setup() {
 function draw() {
 //background(255);
   
-  
+  for(i = 0 ; i < 1000 ; i ++){ 
   
   
   var yoff = 0;
@@ -77,7 +77,9 @@ function draw() {
       par[i].update();
       par[i].accforce();
      
-}}
+}
+  }
+}
 function Bug (){
 
   this.pos = createVector(random(width),random(height));
