@@ -16,7 +16,7 @@ function setup() {
   
   map = new Array(cols*rows);
   
-  for( i = 0 ; i < 2500 ; i ++  ){
+  for( i = 0 ; i < 5000 ; i ++  ){
     
     par[i] = new Bug ();
     
