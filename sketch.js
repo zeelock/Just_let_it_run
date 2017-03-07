@@ -1,10 +1,10 @@
 var inc = 0.01;
 
-var scl = 20;
+var scl = 25;
 
 var cols,rows;
 
-var zoff = 0.01;
+var zoff = 0.001;
 
 
 
@@ -30,7 +30,7 @@ function setup() {
 
   
 
-  for( i = 0 ; i < 5000 ; i ++  ){
+  for( i = 0 ; i < 2500 ; i ++  ){
 
     
 
@@ -56,7 +56,7 @@ function draw() {
 
   
 
-  for(i = 0 ; i < 1000 ; i ++){ 
+  
 
   
 
@@ -152,11 +152,7 @@ function draw() {
 
      
 
-}
-
-  }
-
-}
+}}
 
 function Bug (){
 
@@ -227,10 +223,6 @@ function Bug (){
     point(this.pos.x,this.pos.y);
 
     //this.updatepreV();
-
-    
-
-  
 
     
 
@@ -321,3 +313,4 @@ function Bug (){
   };
 
 }
+
